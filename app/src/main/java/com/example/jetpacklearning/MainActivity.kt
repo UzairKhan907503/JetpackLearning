@@ -33,6 +33,9 @@ fun SetView() {
             .fillMaxHeight(.5f)
             .padding(top = 50.dp)
             .border(width = 5.dp, color = Color.Black)
+            .padding(10.dp)
+            .border(width = 5.dp, color = Color.Blue)
+
     ) {
         Text("Uzair", modifier = Modifier.offset(0.dp, 20.dp).clickable {
 
