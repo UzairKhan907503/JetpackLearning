@@ -25,19 +25,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun SetView() {
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = Modifier
-            .width(300.dp)
-            .fillMaxHeight(.70f)
-            .background(
-                Color.Green
-            ),
-        verticalArrangement = Arrangement.SpaceEvenly
-    ) {
-        Text("Uzair")
-        Text(text = "Khan")
-    }
+
 }
 
 @Preview(showBackground = true)
