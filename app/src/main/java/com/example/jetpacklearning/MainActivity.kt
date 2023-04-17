@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.jetpacklearning.ui.Navigation
 import com.example.jetpacklearning.ui.theme.JetpackLearningTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun SetView() {
-
+    Navigation()
 }
 
 @Preview(showBackground = true)
